@@ -1,0 +1,81 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+ }
+ #img ,#img1{
+     overflow: hidden;
+     object-fit: cover;
+     object-position: center;
+ }
+ .card{
+   padding: .5em;
+   height: 100%;
+   text-align: center;
+   box-shadow:  0px 0px 7px rgb(201, 197, 198);
+   color: black;
+   position: relative;
+   
+ }
+ 
+ .head{
+   text-align: center;
+ }
+ .card:hover{
+     background-color: rgb(253, 228, 247);
+ }
+ 
+ header,#headings{
+   
+   font-weight: bold;
+ }
+ .my-2{
+  text-decoration: underline;
+}
+ #menu{
+   font-size: 1.3em;
+ }
+ #nav:hover{
+   background-color: rgb(252, 199, 237);
+       border-radius: .2em;
+       padding: 2px;
+ }
+ .card img{
+    border-radius: .2em;
+  }
+  
+ a{
+   color: rgb(229, 90, 192);
+ }
+
+ #brand{
+   color: rgb(219, 12, 198);
+ }
+ .dot{
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+   display: inline-block;
+   border: solid 1px;
+ }
+ footer{
+   color: rgb(219, 12, 198);
+ }
+ footer a{
+   color: rgb(219, 12, 198);
+  
+ }
+ footer #brand{
+   font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+ }
+ #button{
+  position: absolute;
+  top: 14px;
+  right: 15px;
+  border-radius: 2em;
+  color: green;
+ }
+ #button:hover{
+  background-color: black;
+ }
+ 

@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+          overflow-x: hidden;
+    
+  }
+  .card{
+    padding: .5em;
+    height: 100%;
+    text-align: center;
+    box-shadow:  0px 0px 7px rgb(201, 197, 198);
+      color: black;
+   position: relative;
+    
+  }
+  .my-2{
+    text-decoration: underline;
+  }
+  .card:hover{
+      background-color: rgb(253, 228, 247);
+  }
+  .card img{
+    border-radius: .2em;
+  }
+  
+  #title{
+      text-align: center;
+      color: rgb(219, 12, 198);
+  }
+  
+  
+  #nav:hover{
+    background-color: rgb(252, 199, 237);
+        border-radius: .2em;
+       
+  }
+  #nav{
+    padding: 2px;
+  }
+  #menu{
+    font-size: 1.3em;
+  }
+  a{
+    color: rgb(229, 90, 192);
+  }
+  #brand{
+    color: rgb(219, 12, 198);
+  }
+  .dot{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid 1px;
+  }
+  footer{
+    color: rgb(219, 12, 198);
+  }
+  footer a{
+    color: rgb(219, 12, 198);
+   
+  }
+  footer #brand{
+    font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+  }
+  #headings{
+    font-weight: bold;
+  }
+  #button{
+    position: absolute;
+  top: 14px;
+  right: 15px;
+    border-radius: 2em;
+    color: green;
+   }
+   #button:hover{
+    background-color: black;
+   }
